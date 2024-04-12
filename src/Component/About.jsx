@@ -7,8 +7,8 @@ const About = () => {
     <>
      <div class='info'>
    <h3>Hi,I'm Shahul Hameed</h3>
-   <p className='summary'>"Welcome to MERN stack development, where MongoDB, Express.js, React.js, and Node.js converge to build powerful web applications. Mastering these technologies opens doors to endless possibilities in web development. Dive deep into each layer of the stack, honing your skills in backend logic, frontend design, and database management. Practice regularly, collaborate with peers, and stay updated with the latest trends to excel in this dynamic field. Build a strong portfolio showcasing your projects and expertise to stand out to potential employers. With dedication and perseverance,
-     you'll soon be crafting innovative solutions and making your mark in the world of MERN stack development."</p>
+   <p className='summary'>"I am MERN fullstack developer fresher in software design analysis, development,
+    testing and implimentation of web and client server application using microsoft technologies ability to learn and develope using new technologies quickly with interpersonal skills."</p>
 
  
    </div>

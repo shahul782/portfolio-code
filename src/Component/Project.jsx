@@ -23,7 +23,7 @@ const Project = () => {
             />
           </div>
           <div className="col-3">
-            <CardImage sx={{ maxWidth: 250, maxHeight: 700 }} 
+            <CardImage sx={{ maxWidth: 700, maxHeight: 700 }} 
               name='Quotation Maker' 
               img='./quatation-img.jpg'
               gitClientLink='https://github.com/shahul782/Quatation-Maker-Client' 
@@ -49,7 +49,8 @@ const Project = () => {
               gitClientLink='#' 
               gitServerLink='#' 
               button1Text='Git Client' 
-              button2Text='Git Server' 
+              // button2Text='Git Server' 
+              hide='hide'
             />
           </div>
         </div>
@@ -58,7 +59,7 @@ const Project = () => {
   )
 }
 
-function CardImage ({ name, img, gitClientLink, gitServerLink, button1Text, button2Text }) {
+function CardImage ({ name, img, gitClientLink, gitServerLink, button1Text, button2Text,hide }) {
   return (
     <>
       <Card sx={{ maxWidth: 445, maxHeight: 500 }}>
@@ -77,7 +78,7 @@ function CardImage ({ name, img, gitClientLink, gitServerLink, button1Text, butt
         </CardContent>
         <CardActions>
           <Button variant="contained" size="small" href={gitClientLink}>{button1Text}</Button>
-          <Button variant="contained" size="small" href={gitServerLink}>{button2Text}</Button>
+          <Button variant="contained" hidden={hide} size="small" href={gitServerLink}>{button2Text}</Button>
         </CardActions>
       </Card>
     </>
